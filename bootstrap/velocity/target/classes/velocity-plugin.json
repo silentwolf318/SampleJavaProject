@@ -1,0 +1,1 @@
+{"id":"geyser","name":"Geyser-Velocity","version":"1.4.1-SNAPSHOT (git-master-1d04a61)","url":"https://geysermc.org","authors":["GeyserMC"],"dependencies":[],"main":"org.geysermc.platform.velocity.GeyserVelocityPlugin"}

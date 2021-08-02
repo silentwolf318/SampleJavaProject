@@ -1,0 +1,11 @@
+org\geysermc\platform\sponge\GeyserSpongePlugin.class
+org\geysermc\platform\sponge\GeyserSpongeMain.class
+org\geysermc\platform\sponge\GeyserSpongePingPassthrough.class
+org\geysermc\platform\sponge\command\SpongeCommandSender.class
+org\geysermc\platform\sponge\GeyserSpongePingPassthrough$GeyserStatusClient.class
+org\geysermc\platform\sponge\command\GeyserSpongeCommandManager.class
+org\geysermc\platform\sponge\command\GeyserSpongeCommandExecutor.class
+org\geysermc\platform\sponge\GeyserSpongeConfiguration.class
+org\geysermc\platform\sponge\GeyserSpongeDumpInfo.class
+org\geysermc\platform\sponge\GeyserSpongeLogger.class
+mcmod.info

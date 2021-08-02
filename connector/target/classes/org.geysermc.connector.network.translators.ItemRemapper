@@ -1,0 +1,16 @@
+org.geysermc.connector.network.translators.item.translators.nbt.CrossbowTranslator
+org.geysermc.connector.network.translators.item.translators.nbt.ShulkerBoxItemTranslator
+org.geysermc.connector.network.translators.item.translators.nbt.BasicItemTranslator
+org.geysermc.connector.network.translators.item.translators.nbt.MapItemTranslator
+org.geysermc.connector.network.translators.item.translators.nbt.EnchantmentTranslator
+org.geysermc.connector.network.translators.item.translators.CompassTranslator
+org.geysermc.connector.network.translators.item.translators.TippedArrowTranslator
+org.geysermc.connector.network.translators.item.translators.nbt.AxolotlBucketTranslator
+org.geysermc.connector.network.translators.item.translators.nbt.EnchantedBookTranslator
+org.geysermc.connector.network.translators.item.translators.nbt.LeatherArmorTranslator
+org.geysermc.connector.network.translators.item.translators.PotionTranslator
+org.geysermc.connector.network.translators.item.translators.nbt.BookPagesTranslator
+org.geysermc.connector.network.translators.item.translators.BannerTranslator
+org.geysermc.connector.network.translators.item.translators.nbt.PlayerHeadTranslator
+org.geysermc.connector.network.translators.item.translators.nbt.FireworkRocketTranslator
+org.geysermc.connector.network.translators.item.translators.nbt.FireworkStarTranslator
