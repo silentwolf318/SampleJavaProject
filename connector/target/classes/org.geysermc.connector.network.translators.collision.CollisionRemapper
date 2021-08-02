@@ -1,7 +1,0 @@
-org.geysermc.connector.network.translators.collision.translators.DirtPathCollision
-org.geysermc.connector.network.translators.collision.translators.TrapdoorCollision
-org.geysermc.connector.network.translators.collision.translators.SnowCollision
-org.geysermc.connector.network.translators.collision.translators.SolidCollision
-org.geysermc.connector.network.translators.collision.translators.SpawnerCollision
-org.geysermc.connector.network.translators.collision.translators.DoorCollision
-org.geysermc.connector.network.translators.collision.translators.ScaffoldingCollision

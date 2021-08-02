@@ -1,9 +1,0 @@
-org.geysermc.connector.network.translators.sound.block.BucketSoundInteractionHandler
-org.geysermc.connector.network.translators.sound.block.HoeInteractionHandler
-org.geysermc.connector.network.translators.sound.block.FlintAndSteelInteractionHandler
-org.geysermc.connector.network.translators.sound.block.DoorSoundInteractionHandler
-org.geysermc.connector.network.translators.sound.block.LeverSoundInteractionHandler
-org.geysermc.connector.network.translators.sound.block.GrassPathInteractionHandler
-org.geysermc.connector.network.translators.sound.block.ComparatorSoundInteractionHandler
-org.geysermc.connector.network.translators.sound.entity.MilkEntitySoundInteractionHandler
-org.geysermc.connector.network.translators.sound.entity.FeedBabySoundInteractionHandler

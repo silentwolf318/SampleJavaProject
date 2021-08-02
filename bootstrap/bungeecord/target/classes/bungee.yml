@@ -1,5 +1,0 @@
-main: org.geysermc.platform.bungeecord.GeyserBungeePlugin
-name: Geyser-BungeeCord
-author: GeyserMC
-website: https://github.com/GeyserMC/Geyser/blob/master/pom.xml
-version: 1.4.1-SNAPSHOT

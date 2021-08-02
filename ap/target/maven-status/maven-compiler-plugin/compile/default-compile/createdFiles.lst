@@ -1,6 +1,0 @@
-org\geysermc\processor\ClassProcessor.class
-org\geysermc\processor\ItemRemapperProcessor.class
-org\geysermc\processor\CollisionRemapperProcessor.class
-org\geysermc\processor\SoundHandlerProcessor.class
-org\geysermc\processor\BlockEntityProcessor.class
-org\geysermc\processor\PacketTranslatorProcessor.class
