@@ -1,0 +1,30 @@
+name: Python application
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Setup Java JDK
+      uses: actions/setup-java@v2.3.0
+      with:
+        java-version: 16    
+    - name: Install dependencies
+      run: |
+        mvn install
+        
+    - uses: actions/checkout@master
+    - name: Run CloudDefense to check for vulnerabilities
+      uses: cdefense/actions/go@master
+      env:
+        PROD_API_KEY: ${{ secrets.PROD_API_KEY }}
+      with:
+        project-name: Java_Github_Action_Test_1
+        api-key: ${{ secrets.PROD_API_KEY }}
