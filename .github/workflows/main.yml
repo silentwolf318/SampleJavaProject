@@ -1,0 +1,31 @@
+name: Java application
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Setup Java JDK
+      uses: actions/setup-java@v2.3.0
+      with:
+        java-version: '11'
+        distribution: 'temurin'
+        
+    - name: Install dependencies
+      run: |
+        mvn install
+        
+    - uses: actions/checkout@master
+    - name: Run CloudDefense to check for vulnerabilities
+      uses: cdefense/actions/java@master
+      with:
+        project-name: Java_Github_Action_Test_1
+        api-key: ${{ secrets.PROD_API_KEY }}
